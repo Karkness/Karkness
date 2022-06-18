@@ -1,0 +1,9 @@
+.red-text {
+    color: #fff;
+}
+ul {
+    display: none;  
+}
+input:focus ~ ul {
+    display: block;
+}
